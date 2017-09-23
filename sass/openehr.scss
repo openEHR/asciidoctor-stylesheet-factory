@@ -14,9 +14,16 @@ dt, th.tableblock, td.content {
 
 th.tableblock {
    background-color: skyblue;
+   font-family: "Open Sans", "DejaVu Sans", sans-serif;
 }
 th.tableblock.frontpage {
    background-color: lightsteelblue;
+   font-family: "Open Sans", "DejaVu Sans", sans-serif;
+}
+
+td.hdlist1 {
+  font-weight: bold;
+  padding-bottom: $paragraph-margin-bottom / 3;
 }
 
 p, td.content {
@@ -41,7 +48,17 @@ ul > li p {
   margin-bottom: -0.25rem;
 }
 
-div.xcode a { font-family: "Open Sans", "DejaVu Sans", sans-serif; font-size: $xcode-font-size; }
+div.xcode a { 
+    font-family: "Open Sans", "DejaVu Sans", sans-serif; 
+    font-size: $xcode-font-size; 
+}
+
+div.title-para {
+    text-align: center;	
+    font-family: $header-font-family;
+    font-size: $subheader-font-size;
+}
+
 
 // reduce code font size
 code {
