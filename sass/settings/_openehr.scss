@@ -22,7 +22,8 @@
 
 $body-bg: white;
 $body-font-color: rgba(0,0,0,0.8);
-$body-font-family: "Noto Serif", "DejaVu Serif", serif;
+$body-font-family: "Georgia", "Times", serif;
+$body-font-size: 1.05em;
 
 @import "defaults";
 
@@ -36,7 +37,7 @@ $panel-font-color: rgba(0,0,0,0.75);
 
 // Headings
 
-$header-font-family: "Open Sans", "DejaVu Sans", sans-serif;
+$header-font-family: "Helvetica", "Arial", sans-serif;
 $header-font-weight: 300;
 $header-font-color: #0066cc;
 $header-line-height: 1.2;
@@ -80,7 +81,7 @@ $code-text-rendering: optimizeSpeed;
 // Code Blocks
 // *Recommended highlight.js themes: magula, default, docco
 
-$pre-font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+$pre-font-family: $code-font-family;
 $pre-font-color: rgba(0,0,0,0.9);
 $pre-border-size: null;
 $pre-bg: #f7f7f8;
@@ -104,10 +105,10 @@ $blockquote-cite-font-color: rgba(0,0,0,0.6);
 $blockquote-cite-font-size: emCalc(15px);
 
 // Tables
-
+$table-font-family: $header-font-family;
 $table-head-font-size: inherit;
 $table-row-font-size: inherit;
-$table-row-font-family: "Open Sans", "DejaVu Sans", sans-serif;
+$table-row-font-family: $table-font-family;
 $table-line-height: 1.6;
 $table-head-bg: #f7f8f7;
 $table-even-row-bg: #f8f8f7;
@@ -115,7 +116,7 @@ $table-border-color: #dedede;
 
 // Special para types
 
-$special-font-family: "Open Sans", "DejaVu Sans", sans-serif;
+$special-font-family: $header-font-family;
 $special-font-color-rule: #004c99;
 $special-font-color-principle: #004c99;
 $special-font-color-deprecated: #663300;
