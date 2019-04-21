@@ -70,11 +70,13 @@ code {
   font-size: 1em;
   font-family: $table-row-font-family;
 }
-p.tableblock code strong,
 td:nth-child(2).tableblock p.tableblock strong,
 td:nth-child(2).tableblock div.paragraph p strong {
-  font-family: $code-font-family;
-  font-size: emCalc(15px);
+  font-family: $table-font-family;
+  font-size: 15px;
+}
+td.tableblock p {
+  margin-bottom: 0;
 }
 
 .exampleblock > .content {
