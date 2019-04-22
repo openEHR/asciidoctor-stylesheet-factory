@@ -75,7 +75,10 @@ td:nth-child(2).tableblock div.paragraph p strong {
   font-family: $table-font-family;
   font-size: 15px;
 }
-td.tableblock p {
+td.tableblock div.paragraph:last-child p {
+  margin-bottom: 0;
+}
+td.tableblock .hdlist > table {
   margin-bottom: 0;
 }
 
